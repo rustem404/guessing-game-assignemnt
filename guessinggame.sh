@@ -1,5 +1,7 @@
 # Note: Variables names are intentionally left global to simplify script
 
+#!/usr/bin/env bash
+
 function input_check {
 read response
 if ! [[ "$response" =~ ^[0-9]+$ ]]
